@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/js.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Encriptador Js</title>
+</head>
+<body>
+    <h1>Encriptando mensajes</h1>
+    <div class="contenedor">
+        <form class="encriptar">
+            <textarea autofocus required type="text" style="text-transform:lowercase" pattern="^[A-Za-z]+$" class="txtingresado" id="textoingresado" placeholder="Ingrese el texto. Solo letras minusculas, sin acento" cols="30" rows="5"></textarea>
+            <button onclick="validar()" type="button">Encriptar</button>
+            <button onclick="desencriptar()" type="button">Desencriptar</button>
+        </form>
+
+        <form class="encriptar">
+            <label for="mensajencriptado"></label>
+            <textarea name="mensaje" id="mensajencriptado" cols="30" rows="5"></textarea>
+            <button onclick="copiar()" type="button">Copiar</button>
+        </form>
+
+    </div>
+
+
+    <footer>
+        <p>©Copyright 9999 de nadie y para nadie. Todos los derechos estan torcidos.(Hernan Gauna)</p>
+    </footer>
+</body>
+</html>
